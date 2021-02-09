@@ -1,0 +1,3 @@
+https://materializecss.com/
+https://code.jquery.com/
+https://www.bootstrapcdn.com/fontawesome
