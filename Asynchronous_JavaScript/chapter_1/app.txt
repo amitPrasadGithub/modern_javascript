@@ -1,0 +1,24 @@
+1. skeleton cdn
+https://cdnjs.com/libraries/skeleton
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+
+const xhr = new XmlHttpRequest();
+
+// OPEN
+xhr.open('Type of request', 'server url/filename', boolean);
+true = synchronous
+false = async
+xhr.open('GET', 'data.txt', true);
+data.txt needs to be in same folder as js file
+
+// readyState values
+0: request not initialized
+1: server connection established
+2: request received
+3: processing request
+4: request finished and response is ready
+
+// HTTP status
+200: OK
+403: forbidden
+404: not found
